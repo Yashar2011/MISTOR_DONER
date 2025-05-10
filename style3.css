@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: ;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color:#222;
+  border-radius: 0 0 50px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  background-image: url(https://img.freepik.com/free-photo/side-view-chicken-doner-with-greens-cucumber-tomato-sauce-cucumber-red-onion-pita-slice-lemon-board_141793-4824.jpg);
+  background-size: cover;
+  border-radius: 25%;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.name {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+}
+
+.nameHead {
+  font-family: Impact, sans-serif;
+  font-size: 4em;
+  letter-spacing: 5px;
+  color: yellow;
+  -webkit-text-stroke: 0.01em black;
+  text-shadow: 3px 3px 7px gray;
+}
+
+.promo {
+  font-size: 1.5em;
+   color: white;
+}
+
+.button1,
+.button2,
+.button3 {
+  width: 120px;
+  height: 50px;
+  background-color: green;
+  position: absolute;
+  top: 85px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button1 { left: 67%; }
+.button2 { left: 77%; }
+.button3 { left: 87%; }
+
+.content {
+  width: 100%;
+  min-height: 800px;
+  background-color:black ;
+  border-radius: 50px 50px 0 0;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+iframe {
+  display: block;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto 40px;
+  border: 0;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: white; 
+}
+
+.contact-list {
+  text-align: center;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.contact-list a {
+  color: #006400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-list a: hover {
+  text-decoration: underline;
+  
+}
+p{
+  color: white; 
+}
